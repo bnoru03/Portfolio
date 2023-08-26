@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Bnoru</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">HABILIDADES</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="logotipo.png" alt="bnoru">
+            </div>
+            <h1>Bruno Decuadra</h1>
+            <h2>Desarrollador web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion"></div>
+        <h2>Sobre mi</h2>
+        <p>
+        <span>Buenas, mi nombre es Bruno... </span>
+         Estudio desarrollo web front-end con el objetivo de alcanzar el logro de desarrollador full-stack,
+         tengo 22 años, resido en Uruguay y soy una persona sumamente curiosa y autodidacta, 
+         me encanta aprender y aplicar los conceptos interiorizados,
+         asi como me fascina comprender los puntos de vista ajenos con el fin de ampliar mi perspectiva sobre cualquier tema, 
+         siempre estoy abierto al dialogo mientras se de bajo los terminos del respeto.
+        </p>
+        <div class="fila">
+            <!-- Datos personales -->
+            <div class="col">
+                <h3>datos personales</h3>
+                <ul>
+                    <li>
+                        <strong>Nacimiento</strong>
+                        03-10-2000
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        098515609
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        brunodecu2000@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Intereses -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Codigo</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Libros</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-infinity"></i>
+                        <span>Matematica</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-music"></i>
+                        <span>Musica</span>
+                    </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>Deportes</span>
+                        </div>
+                    <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Ordenadores</span>
+                        </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-chess-pawn"></i>
+                            <span>Ajedrez</span>
+                        </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-atom"></i>
+                             <span>Fisica</span>
+                         </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-flask-vial"></i>
+                            <span>Quimica</span>
+                        </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-brain"></i>
+                            <span>Filosofia</span>
+                        </div>     
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS-->
+                 <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso css">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Phyton</span>
+                        <div class="barra-skill">
+                            <div class="progreso phyton">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <!-- COMPETENCIAS TRANSVERSALES-->
+                <div class="col">
+                    <h3>Competencias transversales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoequipo">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolucion de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso resolucion">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso respon">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Curiosidad y aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso curioso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- CURRICULUM --> 
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h3>Programacion front-end</h3>
+                        <span class="casa">Jovenes a programar</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Programa de Ceibal dirigido a jóvenes de 18 a 30 años en todo el país,
+                             que ofrece capacitación en programación.
+                              Durante un año, los participantes reciben formación en línea.
+                               Tras completar el "nivel 1", se brinda apoyo para avanzar en el "nivel 2" y continuar su educación. 
+                               El propósito de JaP es equipar a los jóvenes con habilidades tecnológicas esenciales para empleos en TI,
+                                con un enfoque en la inclusión social y laboral, especialmente para aquellos en situaciones vulnerables.
+                                 Con más de 4.000 jóvenes capacitados, el programa ha logrado que más del 70% encuentre empleo en el sector de TI. 
+                                 JaP es un caso de éxito reconocido a nivel internacional por su contribución a la formación y empleabilidad de jóvenes en Uruguay, evidenciando su impacto positivo en la sociedad.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                    <div class="item izq">
+                        <h3>Aspectos basicos de la asistencia tecnica</h3>
+                        <span class="casa">Coursera</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            Coursera es una plataforma en línea que ofrece una amplia gama de cursos gratuitos y pagados de diversas universidades y empresas globales. 
+                            Su oferta abarca desde cursos introductorios hasta avanzados y especializados, abordando conceptos básicos y técnicas complejas.
+                            Esto brinda a los estudiantes la flexibilidad de aprender a su propio ritmo y desde cualquier ubicación.
+                            Coursera se destaca por su calidad y accesibilidad, lo que la convierte en una excelente opción educativa.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>   
+                    </div>
+                    <div class="item izq">
+                        <h3>Estudio autodidacta</h3>
+                        <span class="casa">Yo</span>
+                        <span class="fecha">2022 en adelante</span>
+                        <p>En la actualidad, las personas portan el conocimiento del mundo entero contenido en un dispositivo que cabe en la palma de sus manos. Saberes que desarrollan la lógica,
+                             la resolución de problemas y que facilitan el entendimiento del mundo en el cual existen ya no son un privilegio del cual se puede lucrar intelectualmente solo el sector más adinerado de la población; 
+                             actualmente es más una cuestión de prioridades y para ello no existen ni situaciones ni edades. Por mi parte, he sido asiduo al estudio y no puedo hacer omisión de ello. 
+                             La mayoría de mi desarrollo intelectual no proviene de la autoridad de una institución, sino de la búsqueda incansable de información, su posterior entendimiento y consecuente puesta en práctica.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                            
+                <div class="col derecha">
+                <h3>Experiencia laboral</h3>
+                <div class="item der">
+                    <h3>Ninguna</h3>
+                    <p>Hasta la fecha no cuento con experiencia laboral real, sin embargo, pronto la tendré... Dejando ese hecho de lado he llevado a cabo proyectos
+                    con el fin de demostrar de forma impirica mis conocimientos, dichos proyectos se encuentran en el apartado denominado "porfolio"
+                    </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </section>   
+
+    <!-- PORTFOLIO --> 
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="foto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto3.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto4.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto4.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- SECCION CONTACTO -->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Uruguay
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                098151609
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: brunodecu2000@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+    </body>
+    </html>
+
+
+
